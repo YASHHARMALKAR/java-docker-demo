@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/java-docker-demo.git'
+                git 'https://github.com/YASHHARMALKAR/java-docker-demo.git'
             }
         }
 
